@@ -1,0 +1,64 @@
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap:50px;
+    grid-column-gap:10px;
+    background-color: aliceblue;
+    padding: 10px; 
+}
+
+.container>div {
+    text-align: left;
+    padding: 20px;
+    background-color: rgb(75, 159, 159);
+}
+
+table {
+    max-width: 100%;
+    border: 2px solid blue;
+    padding: 10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+th , tr , td{
+    border:2px solid blue;
+    padding: 10px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+nav{
+    background-color: black;
+}
+ul{
+    display: inline-block;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 5px;
+    padding: 5px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+li a {
+    color: white;
+}
+
+li a:hover:not(.active){
+    background-color: rgb(7, 8, 7)
+}
+
+.active{
+    background-color:rgb(27, 205, 27);
+    color: black;
+}
+
+footer{
+    text-align: center;
+}
